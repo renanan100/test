@@ -1,0 +1,811 @@
+
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+</head>
+<body>
+<style>
+    html,body,div,p{margin:0;padding:0}
+    body{font-size:14px;font-family:"microsoft yahei";background-color:#ffffff}
+    table{border-collapse:collapse;border-spacing:0;table-layout:fixed}
+    th,td{font-size:14px;padding:0}
+    a{text-decoration:none}
+    img{border:0 none}
+    .blue{text-decoration:none;color:#3c3d5d}
+    .chead{width:1002px}
+    .chead .logo{width:698px;height:90px}
+    .chead .txt{width:152px;height:90px}
+    .column{width:1002px;line-height:28px;border:1px solid #dedede}
+    .column .hbox{width:185px;height:154px}
+    .column .head{display:block;background-color:#fafafa}
+    .column .box{width:100%;background-color:#ffffff;border-top:2px solid #f2f3f5}
+    .column .box1{width:100%;word-wrap:break-word;color:#ffffff;background-color:#3f4160}
+    .column .box2{width:100%;background-color:#f8f9fa}
+    .column .tba{width:940px;padding:0 30px 15px}
+    .column .tbb{width:940px;padding:0 30px}
+    .column .tb1{width:900px;line-height:28px;color:#333333;word-break:break-all;padding:0 20px}
+    .column .tb2{width:430px;padding:0 20px}
+    .column .tb3{width:900px;padding:15px 20px 15px 0}
+    .column .gray,.column .gray2{color:#999999;word-break:break-all}
+    .column .gray2{color:#666666}
+    .column .plate1,.column .plate2{width:430px;height:54px;font-size:16px;font-weight:bold;color:#818ba3}
+    .column .plate1{width:900px;padding:0 50px}
+    .column .plate1 .f16{font-size:14px;font-weight:normal;color:#333333}
+    .column .plate1 .f12{font-size:12px;font-weight:normal;color:#999999}
+    .column .keys,.column .keys2{width:85px;line-height:28px;color:#666666}
+    .column .keys2{width:110px}
+    .column .txt1,.column .txt2,.column .txt3{width:815px;line-height:28px;color:#333333;word-break:break-all}
+    .column .txt2{width:345px}
+    .column .txt3{width:auto;max-width:815px;font-size:14px;font-weight:bold}
+    .column .txt4{width:305px;color:#ffffff;word-break:break-all}
+    .column .infr{width:767px;color:#ffffff;table-layout:auto}
+    .column .vam,.column .grcha{vertical-align:middle;margin-left:5px}
+    .column .box1 .vam{margin-right:5px;margin-left:0}
+    .column .name{font-size:24px;padding-bottom:18px}
+    .column .icard{color:#a1a3ae;padding-bottom:18px}
+    .column .con{border-top:1px dotted #ddd}
+    .column .pr20{width:225px;padding-right:20px}
+    .column .time{width:120px;line-height:28px;color:#666666;padding-left:20px}
+    .column .rtbox{width:765px;line-height:28px;color:#333333;padding:0 20px 0 15px;word-break:break-all}
+    .column .hai,.column .guan{line-height:18px;font-size:12px;color:#ffffff;vertical-align:text-top;margin-left:5px;padding:1px 3px;background-color:#3cbe7f;border-radius:2px}
+    .column .guan{background-color:#ff9f20}
+    .column .tag{display:inline-block;word-break:break-all;#display:inline;#zoom:1}
+    .column .all{color:#666;padding:10px 20px;background-color:#fafafa}
+    .column .tit{width:900px;height:40px;color:#666666;padding:0 20px;background-color:#f5f5f5}
+    .column .p15{padding:15px 0}
+    .column .p5{display:inline-block;color:#666666;padding:0 5px;#display:inline;#zoom:1}
+    .column .cell .skill{width:165px;text-align:right;padding-right:15px}
+    .column .cell .skbg,.column .cell .skco{display:inline-block;width:245px;height:18px;line-height:18px;font-size:12px;color:#ffffff;vertical-align:top;margin-top:6px;background-color:#dddddd;border-radius:20px;#display:inline;#zoom:1}
+    .column .cell .skco{width:235px;font-style:normal;margin-top:0;padding-left:10px;background-color:#ff9f20;z-index:3}
+    .column .sl .skco{width:173px}
+    .column .lh .skco{width:112px}
+    .column .yb .skco{width:51px}
+    .column .fbox strong{font-size:14px;font-weight:bold}
+    .column .cha{font-size:12px;font-weight:normal;color:#00457d;margin-left:5px}
+    .column .cha:hover{color:#ff6000}
+    .column .email{width:330px}
+
+    .eng td,.eng .txt3,.eng .fbox strong{font-size:13px;font-family:'Arial'}
+    .eng .txt1,.eng .rtbox,.eng .phd{width:775px;font-size:13px;font-family:'Arial';line-height:28px}
+    .eng .txt2{width:305px}
+    .eng .txt4{width:245px}
+    .eng .cell .txt3{width:120px}
+    .eng .time,.eng .keys{width:110px;font-size:13px;text-align:right}
+    .eng .cell .skill{width:130px}
+    .eng .phd{padding-left:145px}
+    .eng .keys{padding-right:15px}
+    .eng .pr20{width:205px}
+    .eng .pr20 .keys{width:100px}
+    .eng .email{width:270px}
+</style>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" class="column">
+    <tbody >
+        <tr>
+            <td valign="top">
+                <!--基本信息-->
+                <table cellspacing="0" cellpadding="0" border="0" class="box1">
+                    <tbody>
+                        <tr>
+                            <td class="hbox" align="middle">
+                                <img src="https://img01.51jobcdn.com/im/2016/resume/woman.png" width="85" height="104" class="head" alt="头像">
+                            </td>
+                            <td>
+                                <table cellspacing="0" cellpadding="0" border="0" class="infr">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2" class="name">任安安</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <img class="vam" src="https://img01.51jobcdn.com/im/2016/resume/y1.png" width="20" height="20" />目前正在找工作                                            </td>
+                                                                                            <td valign="top">
+                                                    <img class="vam" src="https://img01.51jobcdn.com/im/2016/resume/y2.png" width="20" height="20" />15995279525                                                </td>
+                                                                                                                                        <td valign="top">
+                                                    <table cellspacing="0" cellpadding="0" border="0" class="email">
+                                                    <tbody>
+                                                        <tr>
+                                                        <td valign="top" width="25">
+                                                            <img class="vam" src="https://img01.51jobcdn.com/im/2016/resume/y3.png" width="20" height="20" />
+                                                        </td>
+                                                        <td valign="top" class="txt4">708884812@qq.com</td>
+                                                        </tr>
+                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                                                                    </tr>
+                                        <tr>
+                                            <td valign="top" colspan="3">
+                                                <p>
+                                                <img class="vam" src="https://img01.51jobcdn.com/im/2016/resume/y4.png" width="20" height="20" />女<span class="p5">|</span>27 岁 (1992/10/08)<span class="p5">|</span>现居住无锡<span class="p5">|</span>6年工作经验                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--最近工作-->
+                                    <table cellspacing="0" cellpadding="0" border="0" class="box2">
+                        <tbody>
+                            <tr>
+                            <td class="tba">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                    <tbody>
+                                        <tr>
+                                        <td valign="top" class="tb2">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                            <thead style="height:0">
+                                                <tr>
+                                                <td valign="top" class="keys"></td>
+                                                <td valign="top" class="txt2"></td>
+                                                </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                                                                                <tr>
+                                                            <td colspan="2" class="plate2">个人信息</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" class="keys">户口/国籍：</td>
+                                                            <td valign="top" class="txt2">无锡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" class="keys">婚姻状态：</td>
+                                                            <td valign="top" class="txt2">已婚</td>
+                                                        </tr>
+                                                    </tbody>
+                                            </table>
+                                        </td>
+                                        <td valign="top" class="tb2">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <thead style="height:0">
+                                                    <tr>
+                                                        <td valign="top" class="keys"></td>
+                                                        <td valign="top" class="txt2"></td>
+                                                    </tr>
+                                                </thead>
+                                                                                                <tbody>
+                                                    <tr>
+                                                        <td colspan="2" class="plate2">最高学历/学位</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" class="keys">专业：</td>
+                                                        <td valign="top" class="txt2">工程管理</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" class="keys">学校：</td>
+                                                        <td valign="top" class="txt2">南京工业大学</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" class="keys">学历/学位：</td>
+                                                        <td valign="top" class="txt2">本科</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                               
+                                <!--目前年收入-->
+                                    <table cellspacing="0" cellpadding="0" border="0" class="box">
+                        <tbody>
+                            <tr>
+                                <td class="plate1">目前年收入<span>&nbsp;
+                                    6万元</span><span class="f12">（包含基本工资、补贴、奖金、股权收益等）</span></td>
+                            </tr>
+                                                    </tbody>
+                    </table>
+                                <!--求职意向-->
+                                    <table cellspacing="0" cellpadding="0" border="0" class="box">
+                        <tbody>
+                        <tr>
+                            <td class="plate1">求职意向</td>
+                        </tr>
+                        <tr>
+                            <td class="tba">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                                                                                                <tr>
+                                                                                            <td class="tb2" valign="top">
+                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="keys">期望薪资：</td>
+                                                                <td valign="top" class="txt2">
+                                                                    面议                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                                                                                                        <td class="tb2" valign="top">
+                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="keys">地点：</td>
+                                                                <td valign="top" class="txt2">
+                                                                                                                                        <span class="tag">无锡</span>
+                                                                                                                                    </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                            <td class="tb2" valign="top">
+                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="keys">职能/职位：</td>
+                                                                <td valign="top" class="txt2">
+                                                                                                                                                                                                                        <span class="tag">Java开发工程师&nbsp;&nbsp;</span>
+                                                                                                                                                    <span class="tag">软件工程师&nbsp;&nbsp;</span>
+                                                                                                                                                    <span class="tag">PHP开发工程师&nbsp;&nbsp;</span>
+                                                                                                                                                    <span class="tag">前端开发</span>
+                                                                                                                                                <span class="tag">&nbsp;&nbsp;Java开发工程师</span>
+                                                                                                                                    </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                                                                                                        <td class="tb2" valign="top">
+                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                    <tbody>
+                                                        <tr>
+                                                        <td valign="top" class="keys">行业：</td>
+                                                        <td valign="top" class="txt2">
+                                                                                                                            <span class="tag">
+                                                                    计算机软件                                                                </span>
+                                                                                                                    </td>
+                                                        </tr>
+                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                            <td class="tb2" valign="top">
+                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                    <tbody>
+                                                        <tr>
+                                                        <td valign="top" class="keys">到岗时间：</td>
+                                                        <td valign="top" class="txt2">随时</td>
+                                                        </tr>
+                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                                                                                                                    <td class="tb2" valign="top">
+                                                <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                    <td valign="top" class="keys">工作类型：</td>
+                                                    <td valign="top" class="txt2">全职</td>
+                                                    </tr>
+                                                </tbody>
+                                                </table>
+                                            </td>
+                                                                                                                                </tr>
+                                                                                                                <tr>
+                                        <td class="tb1" colspan="2">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                            <thead style="height:0">
+                                                <tr>
+                                                <td valign="top" class="keys"></td>
+                                                <td valign="top" class="txt1"></td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td valign="top" class="keys">自我评价：</td>
+                                                <td valign="top" class="txt1">本人已独立完成多个项目的全后端全栈开发，熟悉软件开发的整个流程；<br>熟悉主流Spring,SpringBoot,SpringMVC,MyBatis,Struts2,JSP+Servlet+Javabean等框架，快速上手新型框架；<br>熟练使用SQL Server,MySQL关系型数据库,熟悉Oracle的开发和使用；<br>熟练使用tomcat服务器、Maven项目构建工具；<br>熟练使用Eclipse,MyEclipse,IDEA等工具；<br>熟悉HTML,XML,PHP,CSS及其脚本语言；<br>熟练使用js、jQuery等前台集成UI框架技术；<br>熟悉Ajax，能用Ajax实现MVC框架，以及自定义实现Ajax框架；<br>熟悉Spring的依赖注入机制，能够熟练运用Spring进行多层体系架构的设计，<br>理解Spring的AOP设计思想，并能通过Spring进行Web系统的声明式事务管理；<br>了解Linux操作系统基本操作及其环境下java开发；<br>了解LAMP（Linux + Apache + MySQL + PHP）开发；<br>有规范的开发文档写作能力。<br>本人自学能力强，思维敏捷，对于新知识接受快，勇于面对困难，敢于挑战；<br>为人诚恳，待人真诚，具有良好的团队合作精神和沟通组织能力，工作积极上进。</td>
+                                                </tr>
+                                            </tbody>
+                                            </table>
+                                        </td>
+                                        </tr>
+                                                                    </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                                <!--工作经验-->
+                                <!-- 项目经验 -->
+                                    <table cellspacing="0" cellpadding="0" border="0" class="box">
+                        <tbody>
+                            <tr>
+                                <td class="plate1">项目经验</td>
+                            </tr>
+                            <tr>
+                                <td class="tba">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                                                                            <tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="time">2020/5-至今</td>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>任务管理系统（springboot、mybatis、thymeleaf、restful、mysql、maven、ajax、layui、idea、tomcat）</strong>
+                                                                </td>
+                                                            </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">项目描述：</td>
+                                                                                    <td valign="top" class="txt1">该项目主要功能模块分为系统登录：根据不同角色分配不同权限；人员管理：添加人员、删除人员、分配人员；任务管理：制定任务、查看任务、调整任务、跟踪任务、查看人员；计划管理：制定计划、反馈计划、删除计划、高级查询计划；系统登出:安全退出系统并返回首页。是一套很好的办公自动化系统，用户能够轻松自定义工作分配、反馈信息等，有良好的协同操作，很好的实现了人员调整、消息反馈、日历等重要功能。页面采用Html ,CSS, JQuery,Layui,Ajax等技术，后台使用springboot+mybatis+mysql+maven的MVC架构。<br>项目域名：<a href="http://vgjpa02856.jsp.jspee.org" target="_blank">http://vgjpa02856.jsp.jspee.org</a><br>管理员登录账号：M001 密码：1234；<br>主管登录账号：D001 密码：1234；<br>员工登录账号：S001 密码：1234；其他员工登录账号：S002、S003</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">责任描述：</td>
+                                                                                    <td valign="top" class="txt1">在本项目中本人独立完成了整个项目的前端设计、后端开发与全栈测试工作。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                                                                    
+                                                                                    <tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="time">2020/1-2020/2</td>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>BBS论坛（springmvc、mybatis、spring、oracle、maven、ajax、JSP、layui、idea、tomcat、XML） </strong>
+                                                                </td>
+                                                            </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">项目描述：</td>
+                                                                                    <td valign="top" class="txt1">该项目主要功能模块分为用户注册、用户登录、查看板块类型、搜索主贴、发贴、删贴、回贴、更改发帖内容、系统登出:安全退出系统并返回首页。是一套很好的用户交互的平台系统，用户能够轻松自定义工作分配、反馈信息等，有良好的协同操作，很好的实现了与数据库的交互。页面采用Html ,CSS, JQuery,Ajax等技术，后台使用springmvc+mybatis+spring的MVC架构。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">责任描述：</td>
+                                                                                    <td valign="top" class="txt1">在本项目中本人独立完成了整个项目的前端设计、后端开发与全栈测试工作。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                                                                    <tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="time">2019/12-2020/1</td>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>租房网（Struts2、maven、ajax、JSP、idea、tomcat、mysql、XML）</strong>
+                                                                </td>
+                                                            </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">项目描述：</td>
+                                                                                    <td valign="top" class="txt1">该项目主要功能模块分为首页列表查看，用户注册，用户登录、高级搜索：级联子查询、发布房源、修改房源、删除房源、系统登出:安全退出系统并返回首页。是一套很好的房源系统，用户能够轻松发布、查找房源信息等，很好的实现了对房源信息的增删改查等重要功能。页面采用Html ,CSS, JQuery,Ajax等技术，后台使用struts2的MVC架构。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">责任描述：</td>
+                                                                                    <td valign="top" class="txt1">在本项目中本人独立完成了整个项目的前端设计、后端开发与全栈测试工作。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                                                            </table>
+                                </td>
+                            </tr>
+							<tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="time">2020/4-至今</td>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>无锡大明光电科技有限公司   （JSP、Servlet、eclipse、ajax、tomcat、jdbc、SQL Server）
+</strong>
+                                                                </td>
+                                                            </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">项目描述：</td>
+                                                                                    <td valign="top" class="txt1">该项目主要功能模块分为：前端企业网站：首页，关于我们，新闻中心，产品中心，服务中心，联系我们，公司地图；后台管理：系统登录，（关于我们，新闻中心，产品中心，服务中心，联系我们，公司地图的）增删改查，图片上传，富文本编辑等重要功能。页面采用Html ,CSS, JQuery，Layui,Ajax等技术，后台使用JSP、Servlet的MVC架构</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">责任描述：</td>
+                                                                                    <td valign="top" class="txt1">在本项目中本人独立完成了整个项目的前端设计、后端开发与全栈测试工作。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+											<tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>另外还有网上书城项目、网吧管理系统等项目</strong>
+                                                                </td>
+                                                            </tr>
+                                                          </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                        </tbody>
+                    </table>
+                                <!--教育经历-->
+                                    <table class="box">
+                        <tbody>
+                            <tr>
+                                <td class="plate1">教育经历</td>
+                            </tr>
+                            <tr>
+                                <td class="tba">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                                                                            <tr>
+                                                                                                    <td class="p15">
+                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="top" class="time">2010/9-2014/7</td>
+                                                                <td valign="top" class="rtbox">
+                                                                    <strong>南京工业大学</strong>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb1" colspan="2">本科<span class="p5">|</span>工程管理                                                                </td>
+                                                            </tr>
+                                                                                                                            <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">专业描述：</td>
+                                                                                    <td valign="top" class="txt1">在校期间通过学习掌握了管理学、经济学、土木工程技术的基本知识基础知识，在校学习期间,接受工程师和经济师的基本素质训练,打好工程技术、管理、经济、法律、外语及计算机应用方面的坚实基础。</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                    </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                                                                                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                                <!--在校情况-->
+                                <!--技能特长-->
+                                    <table cellspacing="0" cellpadding="0" border="0" class="box">
+                        <tbody>
+                            <tr>
+                                <td class="plate1">
+                                技能特长                                    <span class="f12">（包含IT技能、语言能力、证书、成绩、培训经历）</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tbb">
+                                    <!--技能/语言-->
+                                                                            <table cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="tit">技能/语言</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p15">
+                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                                                                                                                                                                                                                        <tr>
+                                                                                                                                                                                                                    <td class="tb2 cell sl" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">MySQL</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">熟练</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                                                                                                                                                                                                                                                                                                        <td class="tb2 cell yb" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">Oracle</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">一般</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                        </tr>
+                                                                                                                                                                                                                                                                                                                                            <tr>
+                                                                                                                                                                                                                    <td class="tb2 cell sl" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">SQL Server</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">熟练</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                                                                                                                                                                                                                                                                                                        <td class="tb2 cell sl" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">JavaScript</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">熟练</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                        </tr>
+                                                                                                                                                                                                                                                                                                                                            <tr>
+                                                                                                                                                                                                                    <td class="tb2 cell sl" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">Java</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">熟练</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                                                                                                                                                                                                                                                                                                        <td class="tb2 cell lh" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">PHP</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">良好</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                        </tr>
+                                                                                                                                                                                                                                                                                                                                            <tr>
+                                                                                                                                                                                                                    <td class="tb2 cell sl" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">Web前端</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">熟练</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                                                                                                                                                                                                                                                                                                        <td class="tb2 cell lh" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">XML/XSLT</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">良好</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                        </tr>
+                                                                                                                                                                                                                                                                                                                                            <tr>
+                                                                                                                                                                                                                    <td class="tb2 cell lh" valign="top">
+                                                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                <td class="skill">
+                                                                                    <strong class="txt3">Linux</strong>
+                                                                                </td>
+                                                                                <td valign="top">
+                                                                                    <span class="skbg">
+                                                                                    <span class="skco">良好</span>
+                                                                                    </span>
+                                                                                </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                            </table>         
+                                                                        </td>
+                                                                                                                                                                                                                                                                </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                                                        <!--证书-->
+                                                                            <table cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="tit">证书</td>
+                                                </tr>
+                                                                                                                                                    <tr>
+                                                                                                                <td class="tb3">
+                                                                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td valign="top" class="time">2020/6</td>
+                                                                    <td valign="top" class="rtbox">
+                                                                    <strong class="txt3">国家工信部“计算机程序设计工程师（java）”证书</strong>                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                                                                                                            </tbody>
+                                        </table>
+                                                                        <!--培训经历-->
+                                                                            <table cellspacing="0" cel;lpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="tit">培训经历</td>
+                                                </tr>
+                                                                                                                                                    <tr>
+                                                                                                                <td class="p15">
+                                                                                                                <table cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="top" class="time">2019/11-至今</td>
+                                                                    <td valign="top" class="rtbox">
+                                                                        <strong class="txt3">软件设计与开发</strong>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                                                                            <tr>
+                                                                                                                                            <td class="tb2" valign="top">
+                                                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top" class="keys">培训机构：</td>
+                                                                                        <td valign="top" class="txt2">
+                                                                                            无锡东方博宜教育培训中心                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                                                                                                                                                                <td class="tb2" valign="top">
+                                                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top" class="keys">培训地点：</td>
+                                                                                        <td valign="top" class="txt2">北创科技大厦</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                    <td class="tb1" colspan="2">
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="keys">培训描述：</td>
+                                                                                    <td valign="top" class="txt1">通过半年的时间学习了HTML、CSS、js、jQuery、PHP、SQL Server、MySql、SpringMVC、mybatis、Spring、Ajax、Maven、Oracle、Thymeleaf、J2SE、J2EE、XML等，每学期各做一个毕业设计，使学员具有一定的软件开发经验并培养团队合作精神，重视动手能力，最大限度接近于实战</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                        </tbody>
+                                                        </table>
+                                                        </td>
+                                                    </tr>
+                                                                                                                                            </tbody>
+                                        </table>
+                                                                    </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                                <!--附加信息-->
+                                            </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
